@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <style type="text/css" media="screen">
+      body {
+       /* min-height: 75rem;
+        padding-top: 4.5rem;*/
+      }  
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .price-tags{
+        margin-top: -50px;
+    min-height: 80px;
+   
+    justify-content: center;
+      }
+      .card-contact{
+        position: absolute;
+        top: 150px;
+      }
+      .navbar{
+        min-height: 80px;
+      }
+      @media (min-width: 992px){
+        .navbar-expand-lg .navbar-nav .nav-link {
+          padding-right: 1rem;
+          padding-left: 1rem;
+        }
+        .jumbotron{
+          min-height: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--[start:navbar]-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>    
+        </div>
+      </div>    
+    </nav>
+    <!--[end:navbar]-->
+
+    <!--[start:jumbotron]-->
+    <div class="jumbotron mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1 class="display-2 ">We provide best car service</h1>
+            
+          </div>
+          <div class="col-lg-4">
+            <div class="card card-formcta">
+              <div class="card-body">
+                <h2>Request services</h2>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="your-name" aria-describedby="" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="phone-number" aria-describedby="" placeholder="Phone Number">
+                  </div>
+                  <div class="form-group">
+                    <input type="rmail" class="form-control" id="your-email" aria-describedby="" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="pickup-date" aria-describedby="" placeholder="Pickup Date">
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option hidden >Select Car</option>
+                      <option>Daihatsu Avanza</option>
+                      <option>Toyota Kijang Reborn</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">With Driver</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Without Driver</label>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-lg btn-block btn-primary">Make a Reservation</a>
+                </form>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--[end:jumbotron]-->
+
+    <!--[start:site-content]-->
+    <main role="main" class="site-content">
+      <section class="featured py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img src="https://via.placeholder.com/68" class="img-fluid" />
+              <h5 class="pt-lg-3">Select Your Car</h5>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <img src="https://via.placeholder.com/68" class="img-fluid" />
+              <h5 class="pt-lg-3">Define Your Booking</h5>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <img src="https://via.placeholder.com/68" class="img-fluid" />
+              <h5 class="pt-lg-3">Payment</h5>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center py-lg-5">
+              <div class="col-10 text-center py-lg-5 m-auto">
+                <h2>Vehicle we offers</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <div class="card-header p-0">
+                  <img src="https://via.placeholder.com/800x580" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                  <h4><a href="#">Mitsubishi Pajero</a></h4>
+                  <ul class="list-group pt-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Door</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">4</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Maximum Passengers</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">6</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Transmission</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">Manual</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Fuel</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">Gasoline</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary text-uppercase btn-block">Reserve Now</a>
+                </div>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <div class="card-header p-0">
+                  <img src="https://via.placeholder.com/800x580" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                  <h4><a href="#">Mitsubishi Pajero</a></h4>
+                  <ul class="list-group pt-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Door</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">4</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Maximum Passengers</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">6</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Transmission</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">Manual</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Fuel</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">Gasoline</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary text-uppercase btn-block">Reserve Now</a>
+                </div>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <div class="card-header p-0">
+                  <img src="https://via.placeholder.com/800x580" class="img-fluid" />
+                </div>
+                <div class="card-body">
+                  <h4><a href="#">Mitsubishi Pajero</a></h4>
+                  <ul class="list-group pt-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Door</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">4</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Maximum Passengers</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">6</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Transmission</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">Manual</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 border-0">
+                      <div class="media align-items-center mb-3">
+                        <img src="https://via.placeholder.com/24" class="img-fluid mr-3" />
+                        <div class="media-body">
+                          <h6 class="mt-0">Fuel</h6>
+                        </div>
+                      </div>
+                      <span class="badge badge-primary badge-pill">Gasoline</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary text-uppercase btn-block">Reserve Now</a>
+                </div>
+              </div>  
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="why bg-secondary">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+            </div>
+            <div class="col-md-6 bg-primary" style="height:500px;">
+               <div style="background:url('https://livedemo00.template-help.com/wt_61344/images/bg-image-9.jpg') no-repeat; position: absolute;
+    top: 0;
+    bottom: 0;
+   width:50vw;
+    background-size: cover;">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimoni py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-10 text-center py-lg-5 m-auto">
+              <h2>Testimonial</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <div class="media align-items-center mb-3">
+                    <img src="https://via.placeholder.com/68" class="img-fluid mr-3" />
+                    <div class="media-body">
+                      <ul class="list-unstyled d-flex mb-0">
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                      </ul>
+                      <h6 class="mt-0">Rebecca Hawkins</h6>
+                      <p class="mb-0">Company Tagline</p>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <div class="media align-items-center mb-3">
+                    <img src="https://via.placeholder.com/68" class="img-fluid mr-3" />
+                    <div class="media-body">
+                      <ul class="list-unstyled d-flex mb-0">
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                      </ul>
+                      <h6 class="mt-0">Rebecca Hawkins</h6>
+                      <p class="mb-0">Company Tagline</p>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <div class="media align-items-center mb-3">
+                    <img src="https://via.placeholder.com/68" class="img-fluid mr-3" />
+                    <div class="media-body">
+                      <ul class="list-unstyled d-flex mb-0">
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                        <li class="mr-1"><i class="fa fa-star text-warning"></i></li>
+                      </ul>
+                      <h6 class="mt-0">Rebecca Hawkins</h6>
+                      <p class="mb-0">Company Tagline</p>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="card card-contact">
+                <div class="card-body">
+                  <h2>Get in touch</h2>
+                  <div class="media align-items-center mb-3">
+                    <img src="https://via.placeholder.com/68" class="img-fluid mr-3" />
+                    <div class="media-body">
+                      <h6 class="mt-0">Location</h6>
+                      <p class="mb-0">Semayang Road V e2f / 16</p>
+                    </div>
+                  </div>
+                  <div class="media align-items-center mb-3">
+                    <img src="https://via.placeholder.com/68" class="img-fluid mr-3" />
+                    <div class="media-body">
+                      <h6 class="mt-0">Have a questions? Call us now</h6>
+                      <p class="mb-0">1-800-123-456</p>
+                    </div>
+                  </div>
+                  <div class="media align-items-center mb-3">
+                    <img src="https://via.placeholder.com/68" class="img-fluid mr-3" />
+                    <div class="media-body">
+                      <h6 class="mt-0">Email</h6>
+                      <p class="mb-0">hello@e99layout.com</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-lg btn-block btn-primary">Make a Reservation</a>
+                </div>  
+              </div>  
+            </div>
+          </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.2074759320512!2d112.66053831538412!3d-7.977495681744702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6285eb31bd809%3A0x32b17ac5c3696595!2sRhea%20Azalea!5e0!3m2!1sen!2sid!4v1596870339082!5m2!1sen!2sid" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </section>
+      
+    </main>
+
+    <footer class="site-footer bg-dark text-light py-3">
+      <div class="container">  
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center"><div class="copyright">Copyright &copy; 2020</div></div>
+          <div class="col-lg-6">
+            <div class="social-media">
+              <ul class="list-unstyled d-flex mb-0 justify-content-lg-end">
+                <li class="mr-2"><a href="#"><i class="fa fa-2x fa-facebook-square text-light"></i></a></li>
+                <li class="mr-2"><a href="#"><i class="fa fa-2x fa-twitter-square text-light"></i></a></li>
+                <li><a href="#"><i class="fa fa-2x fa-instagram text-light"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
